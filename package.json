@@ -1,0 +1,39 @@
+{
+  "name": "glsl-look-at",
+  "version": "1.0.0",
+  "description": "Generate a 3D lookAt matrix in GLSL",
+  "main": "index.glsl",
+  "license": "MIT",
+  "scripts": {
+    "start": "beefy demo.js:bundle.js -- -t glslify",
+    "bundle": "browserify demo.js -o bundle.js -t glslify"
+  },
+  "author": {
+    "name": "Hugh Kennedy",
+    "email": "hughskennedy@gmail.com",
+    "url": "http://hughsk.io/"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "glsl-smooth-min": "^1.0.0",
+    "a-big-triangle": "^1.0.0",
+    "beefy": "^2.1.3",
+    "browserify": "^9.0.3",
+    "canvas-fit": "^1.2.0",
+    "gl-context": "^0.1.1",
+    "gl-shader": "^4.0.0",
+    "gl-toy": "^1.0.0",
+    "glslify": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stackgl/glsl-look-at.git"
+  },
+  "keywords": [
+    "ecosystem:stackgl"
+  ],
+  "homepage": "https://github.com/stackgl/glsl-look-at",
+  "bugs": {
+    "url": "https://github.com/stackgl/glsl-look-at/issues"
+  }
+}
